@@ -11,7 +11,9 @@
 8. compile and run
 
 
-alternative steps for configuring a new project
+# alternative steps for configuring a new project
+
+
 7. create new project in visual studio "c++ desktop application"
 8. go to project properties
 9. c/c++, set additional include directories = $(wxwin)\include;$(wxwin)\include\msvc
