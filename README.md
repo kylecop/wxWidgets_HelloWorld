@@ -16,7 +16,11 @@
 
 7. create new project in visual studio "c++ desktop application"
 8. go to project properties
+
 9. c/c++, set additional include directories = $(wxwin)\include;$(wxwin)\include\msvc
+
 10.c/c++ -> precompiled headers -> set precompiled header = Not Using Precompiled Headers
+
 11.Linker -> additionallibrary directories = $(wxwin)\lib\vc_lib
+
 12. compile the project as x86 and run
